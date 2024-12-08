@@ -1,0 +1,11 @@
+{
+    "name": "shanja-glinka/interpre",
+    "autoload": {
+        "psr-4": {
+            "ShanjaGlinka\\Interpre\\": "src/"
+        }
+    },
+    "require": {
+        "larapack/dd": "^1.1"
+    }
+}

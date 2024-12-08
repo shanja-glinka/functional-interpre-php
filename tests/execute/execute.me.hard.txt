@@ -1,0 +1,4 @@
+bk.action.array.Make(
+  "message", 
+  bk.action.string.Concat("Hello, ", bk.action.core.GetArg(0))
+)

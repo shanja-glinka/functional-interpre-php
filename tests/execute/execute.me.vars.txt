@@ -1,0 +1,11 @@
+bk.action.core.SetVar(
+  "myNewVar", 
+  bk.action.string.Concat("Concatenated with: ", bk.action.core.GetArg(0))
+)
+
+bk.action.string.JsonEncode(
+  bk.action.array.Make(
+    "message",
+    bk.action.core.GetVar("myNewVar")
+  )
+)

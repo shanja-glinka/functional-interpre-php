@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Title of the document</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Привет!</h1>
+    <h3>Для проверки работоспособности интерпретатора можно запустить тесты:</h3>
+    <a href="/index.php?mode=textInterpreter">File interpreter Mode (запуск файла)</a> или
+    <a href="/index.php?mode=parser">Parser Mode (запуск файла)</a>
+
+    <h3>Или напиши свой сценарий:</h3>
+    <form action="/index.php?mode=parser">
+        <textarea name="execute"></textarea>
+        <input type="submit" value="Исполнить">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+bk.action.string.Concat("WdOeld 1!#34t3 awakjbeaj'\",   ", "@)(!*$!@)$world")

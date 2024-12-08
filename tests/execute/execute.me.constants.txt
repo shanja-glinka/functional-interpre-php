@@ -1,0 +1,14 @@
+true
+
+42
+
+"Hello world"
+
+null
+
+print(true)
+print(42)
+print("Hello world")
+print(true, 42, "Hello world", null)
+
+bk.action.core.GetArg(0)

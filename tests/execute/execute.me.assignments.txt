@@ -1,0 +1,22 @@
+// Сохраняем в переменную 'x' число 10
+bk.action.core.SetVar("x", 10)
+
+// Сохраняем в переменную 'y' число 5
+bk.action.core.SetVar("y", 5)
+
+// Сохраняем в переменную 'sum' результат сложения x и y
+bk.action.core.SetVar(
+  "sum", 
+  math.add(
+    bk.action.core.GetVar("x"),
+    bk.action.core.GetVar("y")
+  )
+)
+
+// Выводим JSON с результатом sum: {"result":15}
+bk.action.string.JsonEncode(
+  bk.action.map.Make(
+    bk.action.array.Make("result"),
+    bk.action.array.Make(bk.action.core.GetVar("sum"))
+  )
+)
